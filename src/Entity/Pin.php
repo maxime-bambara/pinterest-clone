@@ -44,6 +44,7 @@ class Pin
     /**
      *
      * @Vich\UploadableField(mapping="pin_image", fileNameProperty="imageName")
+     * @Assert\Image(maxSize="8M")
      *
      * @var File|null
      */

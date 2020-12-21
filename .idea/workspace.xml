@@ -11,8 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba8688d7-c041-45b0-a12e-cd4891ea30af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/panterest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/panterest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pins/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +143,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/templating" />
       <path value="$PROJECT_DIR$/vendor/liip/imagine-bundle" />
       <path value="$PROJECT_DIR$/vendor/imagine/imagine" />
+      <path value="$PROJECT_DIR$/vendor/twig/string-extra" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kq8wcA8lOeQpofGPXeZ8nSX1fn" />
@@ -155,9 +163,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/public/image" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/templates/layouts" />
       <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$/templates/layout" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -175,7 +185,9 @@
       <workItem from="1608021909824" duration="14744000" />
       <workItem from="1608470369305" duration="12420000" />
       <workItem from="1608485970108" duration="226000" />
-      <workItem from="1608536314163" duration="2921000" />
+      <workItem from="1608536314163" duration="21120000" />
+      <workItem from="1608562424659" duration="5785000" />
+      <workItem from="1608569841799" duration="4492000" />
     </task>
     <servers />
   </component>
@@ -207,13 +219,28 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="1244" y="363" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1920.977@0.23.1920.977" timestamp="1608023514278" />
-    <state x="643" y="150" width="1149" height="722" key="SettingsEditor" timestamp="1608472767037">
+    <state x="643" y="150" width="1149" height="722" key="SettingsEditor" timestamp="1608545399893">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="643" y="150" width="1149" height="722" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1608472767037" />
+    <state x="643" y="150" width="1149" height="722" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1608545399893" />
     <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1607689150694">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1607689150694" />
+    <state x="1120" y="430" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1608548960142">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="1120" y="430" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1920.977@0.23.1920.977" timestamp="1608548960142" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/templates/pins/index.html.twig</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

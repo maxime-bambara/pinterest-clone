@@ -12,12 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ba8688d7-c041-45b0-a12e-cd4891ea30af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20201127072735.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20201127092551.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20201220133953.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20201222142836.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20201222160550.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Pin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Pin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +183,8 @@
       <workItem from="1608536314163" duration="21120000" />
       <workItem from="1608562424659" duration="5785000" />
       <workItem from="1608569841799" duration="5988000" />
-      <workItem from="1608643424542" duration="7843000" />
+      <workItem from="1608643424542" duration="15265000" />
+      <workItem from="1608665848079" duration="291000" />
     </task>
     <servers />
   </component>

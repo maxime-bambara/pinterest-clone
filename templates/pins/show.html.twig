@@ -20,7 +20,8 @@
                 </h1>
                 <p class="pl-3 pb-3 text-muted">
                     <small>
-                        Submitted {{ pin.createdAt|ago }} by [OWNER FULL NAME]
+                        Submitted {{ pin.createdAt|ago }} by
+                        {{ pin.user.fullName }}
                     </small>
                 </p>
 

@@ -12,7 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ba8688d7-c041-45b0-a12e-cd4891ea30af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pins/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twig/AppExtentionExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Twig/AppExtension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pins/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +184,7 @@
       <workItem from="1608536314163" duration="21120000" />
       <workItem from="1608562424659" duration="5785000" />
       <workItem from="1608569841799" duration="5988000" />
-      <workItem from="1608643424542" duration="326000" />
+      <workItem from="1608643424542" duration="846000" />
     </task>
     <servers />
   </component>
@@ -210,6 +212,10 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="728" y="184" width="933" height="654" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1920.977@0.23.1920.977" timestamp="1607689341093" />
+    <state x="987" y="42" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608644184575">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="987" y="42" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.977@0.23.1920.977" timestamp="1608644184575" />
     <state x="1244" y="363" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1608023514278">
       <screen x="0" y="23" width="1920" height="977" />
     </state>

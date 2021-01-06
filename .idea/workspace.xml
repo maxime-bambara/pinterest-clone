@@ -12,8 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ba8688d7-c041-45b0-a12e-cd4891ea30af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/PinType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/PinType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PinsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PinsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layouts/partials/_nav.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/partials/_nav.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +191,7 @@
       <workItem from="1609761865033" duration="9304000" />
       <workItem from="1609829544571" duration="17422000" />
       <workItem from="1609862748989" duration="41000" />
-      <workItem from="1609920058492" duration="1361000" />
+      <workItem from="1609920058492" duration="3925000" />
     </task>
     <servers />
   </component>
@@ -209,10 +211,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="849" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607688746828">
+    <state x="849" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609923024563">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="849" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.977@0.23.1920.977" timestamp="1607688746828" />
+    <state x="849" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.977@0.23.1920.977" timestamp="1609923024563" />
     <state x="728" y="184" width="933" height="654" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1607689341093">
       <screen x="0" y="23" width="1920" height="977" />
     </state>

@@ -222,4 +222,9 @@ class User implements UserInterface
         return $this;
     }
 
+    public function getGravatar (?int $size = 100)
+    {
+        return 'https://www.gravatar.com/avatar/'. md5(strtolower(trim($this->getEmail()))) . '/?s='.$size;
+    }
+
 }

@@ -7,6 +7,7 @@ use App\Form\PinType;
 use App\Repository\PinRepository;
 use App\Repository\UserRepository;
 use Doctrine\ORM\EntityManagerInterface;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -16,6 +17,8 @@ class PinsController extends AbstractController
 {
     /**
      * @Route("/", name="app_home", methods="GET")
+     * @param PinRepository $pinRepository
+     * @return Response
      */
     public function index(PinRepository $pinRepository): Response
     {
@@ -25,9 +28,15 @@ class PinsController extends AbstractController
 
     /**
      * @Route("/pins/create", name="app_pins_create", methods={"GET", "POST"})
+     * @param Request $request
+     * @param EntityManagerInterface $em
+     * @param UserRepository $userRepos
+     * @return Response
+     * @Security("is_granted('ROLE_USER') && user.isVerified()")
      */
     public function create(Request $request, EntityManagerInterface $em, UserRepository $userRepos): Response
     {
+        $this->denyAccessUnlessGranted('ROLE_USER');
 
         $pin = new Pin;
         $form = $this->createForm(PinType::class, $pin);
@@ -53,6 +62,8 @@ class PinsController extends AbstractController
 
     /**
      * @Route("/pins/{id<[0-9]+>}", name="app_pins_show", methods="GET")
+     * @param Pin $pin
+     * @return Response
      */
     public function show(Pin $pin): Response
     {
@@ -61,6 +72,11 @@ class PinsController extends AbstractController
 
     /**
      * @Route("/pins/{id<[0-9]+>}/edit", name="app_pins_edit", methods={"GET", "PUT"})
+     * @param Request $request
+     * @param Pin $pin
+     * @param EntityManagerInterface $em
+     * @return Response
+     *@Security("is_granted('PIN_EDIT', pin)")
      */
     public function edit (Request $request, Pin $pin, EntityManagerInterface $em) : Response
     {
@@ -87,6 +103,11 @@ class PinsController extends AbstractController
 
     /**
      * @Route("/pins/{id<[0-9]+>}/delete", name="app_pins_delete", methods="DELETE")
+     * @param Request $request
+     * @param Pin $pin
+     * @param EntityManagerInterface $em
+     * @return Response
+     *@Security("is_granted('PIN_DELETE', pin)")
      */
     public function delete (Request $request, Pin $pin, EntityManagerInterface $em) : Response
     {

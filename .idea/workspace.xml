@@ -12,8 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba8688d7-c041-45b0-a12e-cd4891ea30af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccountController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/PinsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PinsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pins/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/show.html.twig" afterDir="false" />
     </list>
@@ -198,7 +196,7 @@
       <workItem from="1610052018464" duration="29000" />
       <workItem from="1610269314142" duration="345000" />
       <workItem from="1610443458051" duration="140000" />
-      <workItem from="1611821789988" duration="6139000" />
+      <workItem from="1611821789988" duration="8292000" />
     </task>
     <servers />
   </component>

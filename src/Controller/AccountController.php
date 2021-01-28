@@ -19,10 +19,6 @@ class AccountController extends AbstractController
      */
     public function profile(): Response
     {
-        if(!$this->getUser()){
-            return $this->redirectToRoute('app_login');
-        };
-
         return $this->render('account/profile.html.twig', [
             'controller_name' => 'AccountController',
         ]);
@@ -33,10 +29,6 @@ class AccountController extends AbstractController
      */
     public function edit(Request $request, EntityManagerInterface $em): Response
     {
-        if(!$this->getUser()){
-            return $this->redirectToRoute('app_login');
-        };
-
         $user = $this->getUser();
 
         $form = $this->createForm(UserFormType::class, $user);
@@ -63,10 +55,6 @@ class AccountController extends AbstractController
     public function changePassword(Request $request, EntityManagerInterface $em,
     UserPasswordEncoderInterface $passwordEncoder): Response
     {
-        if(!$this->getUser()){
-            return $this->redirectToRoute('app_login');
-        };
-
         $user = $this->getUser();
 
         $form = $this->createForm(ChangePasswordFormType::class, null, [

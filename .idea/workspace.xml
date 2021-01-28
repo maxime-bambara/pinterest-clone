@@ -12,8 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ba8688d7-c041-45b0-a12e-cd4891ea30af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccountController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/ChangePasswordFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ChangePasswordFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/profile.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/profile.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +192,11 @@
       <workItem from="1609829544571" duration="17422000" />
       <workItem from="1609862748989" duration="41000" />
       <workItem from="1609920058492" duration="12102000" />
-      <workItem from="1610008478857" duration="9444000" />
+      <workItem from="1610008478857" duration="9893000" />
+      <workItem from="1610052018464" duration="29000" />
+      <workItem from="1610269314142" duration="345000" />
+      <workItem from="1610443458051" duration="140000" />
+      <workItem from="1611821789988" duration="1930000" />
     </task>
     <servers />
   </component>
@@ -212,10 +216,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="849" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610013780097">
+    <state x="849" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610269593970">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="849" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.977@0.23.1920.977" timestamp="1610013780097" />
+    <state x="849" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.977@0.23.1920.977" timestamp="1610269593970" />
     <state x="728" y="184" width="933" height="654" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1607689341093">
       <screen x="0" y="23" width="1920" height="977" />
     </state>

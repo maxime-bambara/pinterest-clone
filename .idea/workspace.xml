@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba8688d7-c041-45b0-a12e-cd4891ea30af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +201,7 @@
       <workItem from="1610269314142" duration="345000" />
       <workItem from="1610443458051" duration="140000" />
       <workItem from="1611821789988" duration="15306000" />
-      <workItem from="1612015281052" duration="7025000" />
+      <workItem from="1612015281052" duration="9681000" />
     </task>
     <servers />
   </component>
@@ -244,10 +245,10 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="1097" y="144" width="586" height="735" key="find.popup/0.23.1920.977@0.23.1920.977" timestamp="1608576383583" />
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1611848491158">
+    <state x="884" y="315" width="670" height="676" key="search.everywhere.popup" timestamp="1612027054334">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1611848491158" />
+    <state x="884" y="315" width="670" height="676" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1612027054334" />
     <state x="1120" y="430" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1608548960142">
       <screen x="0" y="23" width="1920" height="977" />
     </state>

@@ -11,7 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba8688d7-c041-45b0-a12e-cd4891ea30af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/panterest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/panterest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
@@ -202,7 +201,7 @@
       <workItem from="1610269314142" duration="345000" />
       <workItem from="1610443458051" duration="140000" />
       <workItem from="1611821789988" duration="15306000" />
-      <workItem from="1612015281052" duration="6628000" />
+      <workItem from="1612015281052" duration="6762000" />
     </task>
     <servers />
   </component>

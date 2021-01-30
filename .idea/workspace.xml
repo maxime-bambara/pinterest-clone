@@ -11,13 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba8688d7-c041-45b0-a12e-cd4891ea30af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/panterest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/panterest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20210106155658.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20210106155658.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +143,7 @@
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/requirements-checker" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kq8wcA8lOeQpofGPXeZ8nSX1fn" />
@@ -203,7 +200,7 @@
       <workItem from="1610269314142" duration="345000" />
       <workItem from="1610443458051" duration="140000" />
       <workItem from="1611821789988" duration="15306000" />
-      <workItem from="1612015281052" duration="1078000" />
+      <workItem from="1612015281052" duration="5172000" />
     </task>
     <servers />
   </component>

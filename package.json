@@ -22,5 +22,9 @@
     "dependencies": {
         "node-sass": "^4.14.1",
         "npm-watch": "^0.7.0"
+    },
+    "engines": {
+        "node": "10.16.3",
+        "yarn" : "1.22.10"
     }
 }

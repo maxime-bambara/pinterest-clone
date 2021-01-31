@@ -28,6 +28,12 @@ class RegistrationController extends AbstractController
 
     /**
      * @Route("/register", name="app_register")
+     * @param EntityManagerInterface $em
+     * @param Request $request
+     * @param UserPasswordEncoderInterface $passwordEncoder
+     * @param GuardAuthenticatorHandler $guardHandler
+     * @param LoginFormAuthenticator $authenticator
+     * @return Response
      */
     public function register(EntityManagerInterface $em, Request $request, UserPasswordEncoderInterface $passwordEncoder, GuardAuthenticatorHandler $guardHandler, LoginFormAuthenticator $authenticator): Response
     {
@@ -78,6 +84,8 @@ class RegistrationController extends AbstractController
 
     /**
      * @Route("/verify/email", name="app_verify_email")
+     * @param Request $request
+     * @return Response
      */
     public function verifyUserEmail(Request $request): Response
     {

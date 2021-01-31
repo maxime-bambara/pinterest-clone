@@ -11,7 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba8688d7-c041-45b0-a12e-cd4891ea30af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/panterest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/panterest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccountController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +148,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/requirements-checker" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/sendgrid-mailer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kq8wcA8lOeQpofGPXeZ8nSX1fn" />
@@ -200,7 +205,7 @@
       <workItem from="1610269314142" duration="345000" />
       <workItem from="1610443458051" duration="140000" />
       <workItem from="1611821789988" duration="15306000" />
-      <workItem from="1612015281052" duration="11499000" />
+      <workItem from="1612015281052" duration="13949000" />
     </task>
     <servers />
   </component>
